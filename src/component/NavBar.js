@@ -18,6 +18,7 @@ export default function NavBar(){
                             <li><Link to="/profile">profile</Link></li>
                             <li><Link to="/reactQuery">React Query</Link></li>
                             <li><Link to="/signUp">React Hook Form</Link></li>
+                            <li><Link to="/customHooks">React Custom Hooks</Link></li>
                         </ul>
                     </div>
                 </nav>
