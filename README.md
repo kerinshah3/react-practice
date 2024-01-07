@@ -6,6 +6,7 @@
   * use effect
   * use state
   * use reducer
+  * use ref
 * Conditional CSS Rendering
 * REST API Call
 * React Hook Form

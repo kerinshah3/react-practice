@@ -3,6 +3,7 @@ import Axios from "axios";
 import {AppContext} from "../../App";
 import UseReducerHook from "../react-hooks/use-reducer/UseReducerHook";
 import UseReduceWithComplexObject from "../react-hooks/use-reducer/UseReduceWithComplexObject";
+import UseRefsHook from "../react-hooks/use-refs/UseRefsHook";
 
 export default function AxiosFetchAPIData() {
     const {userName}  = useContext(AppContext)
@@ -27,6 +28,7 @@ export default function AxiosFetchAPIData() {
             <h3>{length}</h3>
             <UseReducerHook/>
             <UseReduceWithComplexObject/>
+            <UseRefsHook/>
         </div>
     )
 }
