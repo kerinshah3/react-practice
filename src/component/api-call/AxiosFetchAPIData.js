@@ -5,6 +5,7 @@ import UseReducerHook from "../react-hooks/use-reducer/UseReducerHook";
 import UseReduceWithComplexObject from "../react-hooks/use-reducer/UseReduceWithComplexObject";
 import UseRefsHook from "../react-hooks/use-refs/UseRefsHook";
 import UseLayoutEffectHook from "../react-hooks/use-layout-effect/UseLayoutEffectHook";
+import UseImperativeHandleHook from "../react-hooks/use-imperative-handle/UseImperativeHandleHook";
 
 export default function AxiosFetchAPIData() {
     const {userName}  = useContext(AppContext)
@@ -31,6 +32,7 @@ export default function AxiosFetchAPIData() {
             <UseReduceWithComplexObject/>
             <UseRefsHook/>
             <UseLayoutEffectHook/>
+            <UseImperativeHandleHook/>
         </div>
     )
 }

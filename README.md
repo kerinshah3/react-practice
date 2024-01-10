@@ -8,6 +8,7 @@
   * use reducer
   * use ref
   * Use layout effect
+  * use imperative handle
 * Conditional CSS Rendering
 * REST API Call
 * React Hook Form
